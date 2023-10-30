@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@700&display=swap');
+
+
+* {
+    font-family: 'Skranji', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    border: 2px solid #888888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 10px #888888;
+    width: 80%;
+    height: 700px;
+    border-radius: 75px;
+    padding: 10px;
+}
+
+.image {
+    position: relative;
+    background-color: #888888;
+    padding: 50px;
+    border-radius: 25px;
+    bottom: 30px;
+    height: 350px;
+    width: 350px;
+    object-fit: contain;
+
+}
+
+
+
+.btns {
+    box-shadow: 5px 10px #888888;
+    font-size: 24px;
+    background-color: rgba(18, 46, 205, 0.83);
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    color: white;
+
+}
+
+#btn-right {
+    position: absolute;
+    right: 11%;
+}
+
+#btn-left {
+    position: absolute;
+    left: 11%;
+}
+
+.btn-desc {
+    position: absolute;
+    font-size: 24px;
+    background-color: rgba(18, 46, 205, 0.83);
+    border: 2px solid black;
+    color: white;
+    height: 45px;
+    width: 300px;
+    bottom: 14%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+
+.div-desc {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.div-desc img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 90px;
+    right: 10px;
+    height: 350px;
+    width: 350px;
+}
+
+.div-desc h1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 59%;
+
+
+}
+
+.div-desc p {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    text-align: justify;
+
+}
+
+.div-desc .container2 {
+    background-color: #a5a5a5;
+    border: 20px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#btn-volver {
+    top: 14%;
+    left: 15%;
+    display: none;
+
+
+
+}
